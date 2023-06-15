@@ -1,0 +1,32 @@
+.BtnCard {
+  color: whitesmoke;
+  cursor: pointer;
+  padding: 0 15px;
+  border: none !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.cardsProducts {
+  min-width: 345px;
+  max-width: 400px;
+}
+
+.gridCardP {
+  display: grid;
+  height: calc(100% - 262px);
+}
+
+.CardActions {
+  display: grid;
+  align-items: end;
+}
+
+@media (max-width: 900px) {
+  .cardsProducts {
+    min-width: 280px;
+  }
+}

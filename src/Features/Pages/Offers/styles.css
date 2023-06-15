@@ -1,0 +1,21 @@
+.gridProducts {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  align-items: baseline;
+  grid-auto-flow: dense;
+  grid-gap: 1rem;
+
+  width: 90vw;
+  margin: auto;
+}
+
+@media (max-width: 900px) {
+  .gridProducts {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    width: 90vw;
+    margin: auto;
+  }
+}

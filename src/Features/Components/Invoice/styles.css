@@ -1,0 +1,44 @@
+.BrandBill {
+  box-shadow: var(--box-shadow);
+}
+
+.gridInvoice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
+
+  padding: 2rem;
+}
+
+.subGridInvoice {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.subGridInvoice2 {
+  display: grid;
+  align-content: space-between;
+}
+
+.TableContainerBox {
+  padding: 2rem;
+}
+
+@media (max-width: 1260px) {
+  .gridInvoice {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+  }
+  .subGridInvoice2 {
+    gap: 1rem;
+  }
+  .BrandBill {
+    box-shadow: none;
+  }
+
+  .TableContainerBox {
+    padding: 2rem 0;
+  }
+}

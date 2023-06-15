@@ -1,0 +1,42 @@
+.gridCar {
+  display: grid;
+  grid-template-columns: calc(90vw - 1rem - 450px) 450px;
+  gap: 1rem;
+  width: 90vw;
+  margin: auto;
+}
+
+.rageDiv {
+  max-height: 1000px;
+  overflow-y: auto;
+}
+
+.rageDiv::-webkit-scrollbar {
+  width: 12px;
+  background-color: #ffffff;
+}
+
+.rageDiv::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #21d4fd, #2152ff);
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+
+.rageDiv::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #332bff, #020073);
+  background-size: 100% 100%;
+}
+
+@media (max-width: 880px) {
+  .gridCar {
+    grid-template-columns: 90vw;
+    justify-items: end;
+    gap: 2rem;
+  }
+
+  .rageDiv {
+    width: fit-content;
+  }
+}

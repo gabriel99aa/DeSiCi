@@ -1,0 +1,114 @@
+/* .fund {
+  position: relative;
+  background-image: url('../../../Resources/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--box-shadow);
+
+  height: 200px;
+  width: 90vw;
+  margin: 30px auto 90px auto;
+
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.barMenu {
+  width: 85%;
+  height: 100px;
+  padding: 10px 30px;
+
+  position: absolute;
+  bottom: -3rem;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gridMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.3fr 0.3fr;
+  gap: 2rem;
+}
+
+.background-Glass {
+  backdrop-filter: saturate(200%) blur(30px);
+  background-color: rgba(255, 255, 255, 0.4);
+  background-clip: border-box;
+
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+
+  box-shadow: rgba(255, 255, 255, 0.9) 0rem 0rem 0.0625rem 0.0625rem inset,
+    rgba(0, 0, 0, 0.05) 0rem 1.25rem 1.6875rem 0rem;
+}
+
+.brandMenu {
+  height: 80px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.BH1 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .fund {
+    height: 150px;
+    margin: 10px auto 50px auto;
+  }
+
+  .gridMenu {
+    display: none;
+  }
+
+  .brandMenu {
+    height: 60px;
+  }
+
+  .barMenu {
+    grid-template-columns: 64px 1fr auto;
+    padding: 10px 10px;
+    height: 80px;
+    bottom: -2rem;
+  }
+
+  .gridMenu {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .background-Glass {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media (max-width: 360px) {
+  .BH1 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .Mobile {
+    display: none;
+  }
+} */
